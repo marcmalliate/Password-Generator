@@ -30,17 +30,17 @@ function generatePassword() {
 alert(`Good choice, your password will have ${confirmLength} characters`);
 
 //Parameters of password.
-var confirmSpecialCharacter = confirm("Please click OK to confirm if you would like to include special characters");
-var confirmNumericCharacter = confirm("Please click OK to confirm if you would like to include numeric characters");    
-var confirmLowerCase = confirm("Please click OK to confirm if you would like to include lowercase characters");
-var confirmUpperCase = confirm("Please click OK to confirm if you would like to include uppercase characters");
+var confirmSpecialCharacter = confirm("Please click OK to confirm if you would like to include special characters. If you would not like to include special characters, please click cancel.");
+var confirmNumericCharacter = confirm("Please click OK to confirm if you would like to include numeric characters. If you would not like to include numeric characters, please click cancel.");    
+var confirmLowerCase = confirm("Please click OK to confirm if you would like to include lowercase characters. If you would not like to include lowercase characters, please click cancel.");
+var confirmUpperCase = confirm("Please click OK to confirm if you would like to include uppercase characters. If you would not like to include uppercase characters, please click cancel.");
   // Loop if answer is outside the parameters 
   while(confirmUpperCase === false && confirmLowerCase === false && confirmSpecialCharacter === false && confirmNumericCharacter === false) {
     alert("Sorry, you must choose at least one parameter. Let's try again.");
-    var confirmSpecialCharacter = confirm("Please click OK to confirm if you would like to include special characters");
-    var confirmNumericCharacter = confirm("Please click OK to confirm if you would like to include numeric characters");    
-    var confirmLowerCase = confirm("Please click OK to confirm if you would like to include lowercase characters");
-    var confirmUpperCase = confirm("Please click OK to confirm if you would like to include uppercase characters");   
+    var confirmSpecialCharacter = confirm("Please click OK to confirm if you would like to include special characters. If you would not like to include special characters, please click cancel.");
+    var confirmNumericCharacter = confirm("Please click OK to confirm if you would like to include numeric characters. If you would not like to include numeric characters, please click cancel.");    
+    var confirmLowerCase = confirm("Please click OK to confirm if you would like to include lowercase characters. If you would not like to include lowercase characters, please click cancel.");
+    var confirmUpperCase = confirm("Please click OK to confirm if you would like to include uppercase characters. If you would not like to include uppercase characters, please click cancel.");   
 } 
 
 // Assign an action to the password parameters.
