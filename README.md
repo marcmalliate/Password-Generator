@@ -27,14 +27,12 @@ https://github.com/marcmalliate/Password-Generator
 
 ### Screenshots of application
 
-(assets/screenshots/1.png)
+![screenshot1](assets/screenshots/1.png)
+![screenshot2](assets/screenshots/2.png)
+![screenshot3](assets/screenshots/3.png)
 
 
-<img src="/Users/marcmalliate/BootCamp/Homework/03 JavaScript: Password Generator/Password-Generator/assets/screenshots/1.png">
 
-<img src="/Users/marcmalliate/BootCamp/Homework/03 JavaScript: Password Generator/Password-Generator/assets/screenshots/2.png">
-
-<img src="/Users/marcmalliate/BootCamp/Homework/03 JavaScript: Password Generator/Password-Generator/assets/screenshots/3.png">
 
 
 © 2021 Marc Malliate
